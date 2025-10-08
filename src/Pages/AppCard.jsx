@@ -2,12 +2,12 @@ import React from 'react'
 import downloads from '../assets/icon-downloads.png'
 import rating from '../assets/icon-ratings.png'
 const AppCard = ({product}) => {
-    console.log(product)
+    
   return (
     <div>
         <div className="card bg-base-100 shadow-sm p-3 h-full border-1 border-gray-100">
   <figure>
-    <img
+    <img className='w-full h-[200px] object-cover rounded-md'
       src={product.image} />
   </figure>
   <div className="card-body">
