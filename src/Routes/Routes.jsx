@@ -6,6 +6,7 @@ import Home from "../Pages/Home";
 import Instalation from "../Pages/Instalation";
 import Apps from "../Pages/Apps";
 import AppDetails from "../Pages/AppDetails";
+import InstalledPage from "../Pages/InstalledPage";
 
 
 export const router = createBrowserRouter([
@@ -28,9 +29,9 @@ export const router = createBrowserRouter([
         element:<AppDetails></AppDetails> ,
       },
       {
-        index: true,
-        path: "/installation",
-        element:<Instalation></Instalation>,
+        
+        path: "/install",
+        element:<InstalledPage></InstalledPage>,
       },
     ],
   },
