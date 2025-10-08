@@ -5,9 +5,9 @@ import Footer from '../Components/Footer.jsx/Footer'
 
 const Root = () => {
   return (
-    <div>
+    <div className='flex flex-col min-h-screen'>
         <Navber></Navber>
-        <Outlet></Outlet>
+        <div className='container mx-auto my-10 flex-1'><Outlet></Outlet></div>
         <Footer></Footer>
     </div>
   )
