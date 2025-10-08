@@ -8,7 +8,7 @@ const Banner = () => {
       <h1 className="text-5xl text-center font-bold">We Build 
         <br />
         <span className="text-[#9F62F2]">Productive </span>Apps</h1>
-        <p className="text-[#777] my-5">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+        <p className="text-[#777] my-5">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br/> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
         <div className="flex gap-5 space-y-5">
             <a href="https://play.google.com/store/apps?hl=en" target="_blank" className="btn "> <img src={playstore} /> Google Play</a>
 
