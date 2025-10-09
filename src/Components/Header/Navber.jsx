@@ -24,7 +24,7 @@ const Navber = () => {
 
         <li><NavLink to='/apps' className={({isActive})=>`${linkStyle} ${isActive?activeStyle:''}`}> Apps</NavLink></li>
 
-        <li><NavLink to='/installation' className={({isActive})=>`${linkStyle} ${isActive?activeStyle:''}`}> Installation</NavLink></li>
+        <li><NavLink to='/install' className={({isActive})=>`${linkStyle} ${isActive?activeStyle:''}`}> Installation</NavLink></li>
       </ul>
     </div>
     <Link className="btn btn-ghost text-xl"><img className='h-[50px] w-[50px]' src={heroImg} alt="" />HERO.IO</Link>
@@ -36,12 +36,12 @@ const Navber = () => {
 
         <li><NavLink to='/apps' className={({isActive})=>`${linkStyle} ${isActive?activeStyle:''}`}> Apps</NavLink></li>
 
-        <li><NavLink to='/installation' className={({isActive})=>`${linkStyle} ${isActive?activeStyle:''}`}> Installation</NavLink></li>
+        <li><NavLink to='/install' className={({isActive})=>`${linkStyle} ${isActive?activeStyle:''}`}> Installation</NavLink></li>
         
     </ul>
   </div>
   <div className="navbar-end container mx-auto">
-    <a href='https://github.com/sohanur20212/' target='_blank'  className='bg-gradient-to-r to-[#9F62F2] from-[#632EE3] px-4 py-1 rounded-md text-white flex gap-2'><img src={github} />Go Back!</a>
+    <a href='https://github.com/sohanur20212/' target='_blank'  className='bg-gradient-to-r to-[#9F62F2] from-[#632EE3] px-4 py-1 rounded-md text-white flex gap-2'><img src={github} />Contribute</a>
   </div>
  </div>
 </div>

@@ -11,14 +11,14 @@ const InstalledPage = () => {
     setAppInstall(saveList);
   }, []);
 
-  // remove app
+  //  Remove app
   const handleRemove = (id) => {
     const updatedList = appInstall.filter((a) => a.id !== id);
     setAppInstall(updatedList);
     localStorage.setItem("installList", JSON.stringify(updatedList));
   };
 
-  // sort apps by size
+  // Sort by size
   const handleSortChange = (e) => {
     const value = e.target.value;
     setSortOrder(value);
@@ -62,14 +62,14 @@ const InstalledPage = () => {
             >
               <div className="flex items-center gap-4">
                 <img
-                  src={app.image}
+                  src={app.image || "https://via.placeholder.com/80"}
                   alt={app.title}
                   className="w-20 h-20 rounded-md object-cover"
                 />
                 <div>
                   <h2 className="text-lg font-semibold">{app.title}</h2>
                   <p className="text-sm text-gray-500">
-                    {app.companyName} 
+                    {app.companyName || "Unknown Developer"}
                   </p>
                   <div className="flex items-center gap-4 mt-2">
                     <span className="flex items-center gap-1 text-[#00D390]">
@@ -88,7 +88,7 @@ const InstalledPage = () => {
               </div>
               <button
                 onClick={() => handleRemove(app.id)}
-                className="bg-[#00D390] text-white px-3 py-1 rounded-md"
+                className="bg-[#00D390] text-white px-3 py-2 rounded-md"
               >
                 Uninstall
               </button>

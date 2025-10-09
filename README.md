@@ -1,16 +1,24 @@
-# React + Vite
+App Name: MY-HERO-APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description: HERO.IO is a React-based application that allows users to browse, install, and manage various apps.
 
-Currently, two official plugins are available:
+1. GitHub Contribute: Easily contribute to the GitHub repository via the Navbar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Apps Page: View all apps with search and filter options
 
-## React Compiler
+3. App Details: Access detailed information for each app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4. Installed Apps: View the list of apps installed by the user
 
-## Expanding the ESLint configuration
+5. Uninstall Functionality: Easily remove installed apps
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+6. Sort Apps by Size: Sort apps by size (Low to High / High to Low)
+
+Technologies:
+1. HTML
+2. CSS
+3. Tailwind Css
+4. DaisyUI
+5. React
+6. Recharts
+

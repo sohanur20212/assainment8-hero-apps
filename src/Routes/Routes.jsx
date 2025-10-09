@@ -3,11 +3,10 @@ import Root from "../Root/Root";
 import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
 
-import Instalation from "../Pages/Instalation";
 import Apps from "../Pages/Apps";
 import AppDetails from "../Pages/AppDetails";
 import InstalledPage from "../Pages/InstalledPage";
-
+import Instalation from "../Pages/Instalation";
 
 export const router = createBrowserRouter([
   {
@@ -28,11 +27,13 @@ export const router = createBrowserRouter([
         path: "/apps/:id",
         element:<AppDetails></AppDetails> ,
       },
+      
       {
         
         path: "/install",
-        element:<InstalledPage></InstalledPage>,
+        element:<Instalation></Instalation>,
       },
     ],
+    
   },
 ]);
